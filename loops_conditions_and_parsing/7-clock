@@ -9,8 +9,8 @@ echo " hours; $hours"
 minutes=1 
 	while [ $minutes -lt 60 ]
 	do 
-		echo " minutes; $minutes" 
-$minutes+=1
+		echo i$minutes 
+		(($minutes+=1))
 done 
-hours+=1
+((hours+=1))
 done
