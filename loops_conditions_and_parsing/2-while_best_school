@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#while loop to reiterate a var 10 *
+counter=1
+while [ $counter -le 10 ]
+do 
+	echo "Best School"
+	((counter++))
+done 
+
