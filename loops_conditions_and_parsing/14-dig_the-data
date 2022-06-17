@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# displaying some fields of an apache log file using teh awk command 
+awk '{print $1,$6}' apache-access.log
